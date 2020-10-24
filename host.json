@@ -1,0 +1,12 @@
+{
+  "version": "2.0",
+  "customHandler": {
+    "description": {
+      "defaultExecutablePath": "wagi",
+      "arguments": [
+        "-l", "127.0.0.1:%FUNCTIONS_CUSTOMHANDLER_PORT%"
+      ]
+    },
+    "enableForwardingHttpRequest": true
+  }
+}

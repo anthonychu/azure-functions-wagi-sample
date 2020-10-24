@@ -1,0 +1,3 @@
+[[module]]
+route = "/..."
+module = "./target/wasm32-wasi/release/main.wasm"
